@@ -115,9 +115,9 @@ function App() {
                                 onChange={(e) => setExchange(e.target.value)}
                             >
                                 <MenuItem value="NASDAQ">NASDAQ</MenuItem>
-                                <MenuItem value="NYSE">NYSE</MenuItem>
+                                {/* <MenuItem value="NYSE">NYSE</MenuItem>
                                 <MenuItem value="BSE">BSE</MenuItem>
-                                <MenuItem value="NSE">NSE</MenuItem>
+                                <MenuItem value="NSE">NSE</MenuItem> */}
                             </Select>
                         </FormControl>
 
